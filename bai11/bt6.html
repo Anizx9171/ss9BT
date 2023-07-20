@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript Example</title>
+</head>
+
+<body>
+    <div id="content" style="width: 1000rem; height: 1000rem; background: #fff; color: white; margin: 0px 0px;">
+    </div>
+
+    <script>
+        let color = prompt("Nhập màu bạn muốn đổi")
+        if (color=="Đỏ" || color =="đỏ"){
+            document.getElementById("content").style.background = "red";
+    }
+        else if (color=="Xanh" || color=="xanh"){
+            document.getElementById("content").style.background = "blue";
+    }
+        else if (color=="Vàng"|| color=="vàng"){
+            document.getElementById("content").style.background = "Yellow";
+    }
+    else {
+        alert("Hết màu")
+    }
+    </script>
+</body>
+
+</html>

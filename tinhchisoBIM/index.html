@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        let weight = prompt("Nhập cân nặng của bạn \(kg\):");
+        let height = prompt("Nhập chiều cao của bạn \(m\):");
+        let bMI = weight / (height * height);
+        if (bMI <= 18.5) {
+            document.writeln(`Mày gầy vãi`)
+        }
+        else if (bMI <= 24.9) {
+            document.writeln(`Mày ngon`)
+        }
+        else if (bMI <= 29.9) {
+            document.writeln(`Mày tiền béo phì`)
+        }
+        else if (bMI <= 34.9) {
+            document.writeln(`Mày béo phì cấp I`)
+        }
+        else if (bMI <= 39.9) {
+            document.writeln(`Mày béo phì cấp II`)
+        }
+        else {
+            document.writeln(`Mày béo phì cấp III`)
+        }
+    </script>
+</body>
+
+</html>
